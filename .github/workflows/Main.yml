@@ -4,7 +4,7 @@ on:
   workflow_dispatch:
   schedule:
     - cron: '0 2,8,14 * * *'
-
+jobs:
   youtube_bot:
     continue-on-error: true
     strategy:
